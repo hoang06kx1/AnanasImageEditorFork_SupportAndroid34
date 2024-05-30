@@ -246,7 +246,7 @@ public class EditImageActivity extends BaseActivity implements OnLoadingDialogLi
         if (requestCode == PERMISSIONS_REQUEST_CODE) {
             if (!(grantResults.length > 0
                     && grantResults[0] == PackageManager.PERMISSION_GRANTED)) {
-                finish();
+//                finish();
             }
         }
         super.onRequestPermissionsResult(requestCode, permissions, grantResults);
